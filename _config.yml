@@ -28,8 +28,8 @@ unpublished: false
 # Plugins
 whitelist: []
 gems:
- - jekyll-coffeescript
- - jekyll-paginate
+ - jekyll-coffeescript # Included by default from Github
+ - jekyll-paginate     # Included by default from Github
 
 # Conversion
 markdown:    kramdown
