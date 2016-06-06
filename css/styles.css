@@ -1,0 +1,50 @@
+body {
+  background-color: #eee;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+
+}
+
+/* Styles for the site navigation */
+.site-nav {
+  border-bottom: 1px solid black;
+  font: 1.2em "Arial", sans-serif;
+}
+
+.site-nav::after { 
+   content: "";
+   display: block; 
+   clear: both;
+}
+
+.site-nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.site-nav li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  list-style-type: none;
+}
+
+.site-nav a {
+  background-color: #B8C8E7;
+  border-right: 1px solid #58595B;
+  display: block;
+  text-decoration: none;
+  padding: 0px 20px;
+  transition: 150ms background-color;
+}
+
+.site-nav a.active {
+  background-color: #748FC4;
+}
+
+.site-nav a:hover {
+  background-color: #88A9E7;
+}
