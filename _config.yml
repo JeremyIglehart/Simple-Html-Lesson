@@ -1,6 +1,6 @@
 # Where things are
 #source:       . # Github Overide's this to [your repo's top level directory]
-destination:  ./_site
+#destination:  ./_site
 plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:     ./_data
