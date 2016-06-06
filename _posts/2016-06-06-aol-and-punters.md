@@ -1,5 +1,6 @@
 ---
 layout: default
+title: AOL and Punters
 ---
 
 <h1>Hello World...</h1>

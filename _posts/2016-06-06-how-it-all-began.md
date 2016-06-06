@@ -1,5 +1,6 @@
 ---
 layout: default
+title: How It All Began
 ---
 
 <h1>Hello World...</h1>

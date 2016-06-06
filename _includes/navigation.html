@@ -1,8 +1,9 @@
 <div class="site-nav">
   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="the_beginning.html">The Beginning</a></li>
-    <li><a href="AOL_and_punters.html">AOL and Punters</a></li>
-    <li><a href="i_want_lunch.html">I Want Lunch</a></li>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
   </ul>
 </div>

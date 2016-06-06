@@ -1,5 +1,6 @@
 ---
 layout: default
+title: I Want Lunch!!!
 ---
 
 <h1>I want to eat da food dat iz guuuuuuooooood and filling</h1>
