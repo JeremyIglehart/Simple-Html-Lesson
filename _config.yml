@@ -43,7 +43,7 @@ excerpt_separator: "\n\n"
 # detach:  false
 # port:    4000
 # host:    127.0.0.1
-# baseurl: "" # does not include hostname
+baseurl: "/Simple-Html-Lesson/" # does not include hostname
 
 # Outputting
 permalink:     date
