@@ -32,7 +32,7 @@ gems:
  - jekyll-paginate     # Included by default from Github
 
 # Conversion
-markdown:    kramdown
+markdown:    kramdown # The only markdown processor that github supports anymore.
 #highlighter: rouge # Github Overide's this to rouge
 #lsi:         false # Github Overide's this to false
 excerpt_separator: "\n\n"
